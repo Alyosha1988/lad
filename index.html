@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0a09" />
+  <meta name="description" content="Лад — выбери версию: быстрый хордовый спутник (v1) или Song Companion с картой и дорожкой (v2)." />
+  <title>Лад — выбери версию</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="sky" aria-hidden="true"></div>
+
+  <main class="shell">
+    <header class="intro">
+      <p class="mark">Лад</p>
+      <p class="eyebrow">музыка в твоём ритме</p>
+      <h1 class="title">Два пути. Один инструмент.</h1>
+      <p class="lead">
+        Выбери, как хочешь писать сегодня: быстро от аккорда у грифа
+        или собрать песню от настроения до дорожки.
+      </p>
+    </header>
+
+    <section class="doors" aria-label="Выбор версии">
+      <article class="door door-v1">
+        <div class="door-media">
+          <img src="icons/v1_preview.jpg" alt="" />
+          <span class="door-badge">v1</span>
+        </div>
+        <div class="door-body">
+          <h2 class="door-title">Хордовый спутник</h2>
+          <p class="door-tag">Быстрый совет у грифа</p>
+          <ul class="door-points">
+            <li>Стартуешь с аккорда</li>
+            <li>Получаешь гармонические ходы и аппликатуры</li>
+            <li>Слушаешь акустику, дисторшн или рояль</li>
+            <li>Короткий путь — без карты и формы песни</li>
+          </ul>
+          <p class="door-diff">
+            <strong>Отличие:</strong> это карманный помощник. Зашёл → выбрал аккорд → ушёл с идеей хода.
+          </p>
+          <a class="door-cta door-cta-v1" href="https://alyosha1988.github.io/lad-v1/">
+            Открыть версию 1 <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="door door-v2">
+        <div class="door-media">
+          <img src="icons/v2_preview.jpg" alt="" />
+          <span class="door-badge">v2</span>
+        </div>
+        <div class="door-body">
+          <h2 class="door-title">Song Companion</h2>
+          <p class="door-tag">Песня от настроения до формы</p>
+          <ul class="door-points">
+            <li>Mood-Room: выбираешь оттенок песни</li>
+            <li>Карта лада: связи между аккордами</li>
+            <li>Дорожка: интро, куплет, припев, бридж</li>
+            <li>Выгрузка PDF с аппликатурами</li>
+          </ul>
+          <p class="door-diff">
+            <strong>Отличие:</strong> это мастерская песни. Исследуешь карту, собираешь форму и уносишь лист с собой.
+          </p>
+          <a class="door-cta door-cta-v2" href="https://alyosha1988.github.io/lad-v2/">
+            Открыть версию 2 <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <footer class="foot">
+      <p>Оба варианта — «Лад». Можно возвращаться и переключаться.</p>
+    </footer>
+  </main>
+</body>
+</html>
