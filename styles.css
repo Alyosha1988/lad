@@ -11,6 +11,12 @@
   --font-display: "Cormorant Garamond", Georgia, serif;
   --font-body: "Source Sans 3", system-ui, sans-serif;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --phi: 1.618;
+  --space-1: 0.382rem;
+  --space-2: 0.618rem;
+  --space-3: 1rem;
+  --space-4: 1.618rem;
+  --space-5: 2.618rem;
 }
 
 *,
@@ -41,7 +47,7 @@ body {
 .shell {
   width: min(980px, 100%);
   margin: 0 auto;
-  padding: 1.6rem 1.1rem 2.4rem;
+  padding: var(--space-4) var(--space-3) var(--space-5);
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
@@ -50,7 +56,7 @@ body {
 .intro {
   text-align: center;
   max-width: 36rem;
-  margin: 0.4rem auto 1.6rem;
+  margin: var(--space-1) auto var(--space-4);
   animation: rise 0.55s var(--ease) both;
 }
 
@@ -93,7 +99,7 @@ body {
 .doors {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  gap: var(--space-4);
   align-items: stretch;
   flex: 1;
 }
@@ -158,8 +164,8 @@ body {
   border-radius: 999px;
   font-size: 0.72rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-transform: none;
 }
 
 .door-v1 .door-badge {
@@ -174,10 +180,10 @@ body {
 }
 
 .door-body {
-  padding: 1.05rem 1.1rem 1.2rem;
+  padding: var(--space-3) var(--space-3) var(--space-4);
   display: flex;
   flex-direction: column;
-  gap: 0.45rem;
+  gap: var(--space-2);
   flex: 1;
 }
 
