@@ -285,3 +285,20 @@ body {
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
+
+.door-v3 .door-badge {
+  background: rgba(240, 163, 90, 0.2);
+  color: #f0a35a;
+}
+.door-cta-v3 {
+  background: linear-gradient(135deg, #f0a35a, #d97835);
+  color: #1a120c;
+}
+.doors {
+  grid-template-columns: 1fr;
+}
+@media (min-width: 900px) {
+  .doors {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
