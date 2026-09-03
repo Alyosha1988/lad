@@ -156,6 +156,11 @@ body {
   filter: brightness(0.9) saturate(1.05);
 }
 
+.door-v3 .door-media img {
+  filter: brightness(0.92) contrast(1.06) saturate(0.95);
+  object-position: center 42%;
+}
+
 .door-badge {
   position: absolute;
   top: 0.75rem;
