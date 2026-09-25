@@ -152,7 +152,7 @@ a {
 .hero-copy {
   width: min(var(--lad-content), 100%);
   margin: 0 auto;
-  padding: clamp(2.75rem, 9vh, 5.25rem) var(--lad-gutter) 1.75rem;
+  padding: clamp(2rem, 6vh, 3.75rem) var(--lad-gutter) 1.25rem;
   text-align: center;
   animation: hero-rise 0.85s var(--lad-ease-out) both;
 }
@@ -219,7 +219,7 @@ a {
   position: relative;
   flex: 1 1 auto;
   width: 100%;
-  min-height: clamp(320px, 52vh, 620px);
+  min-height: clamp(360px, 56vh, 680px);
   margin-top: auto;
   overflow: hidden;
   animation: hero-rise 0.9s var(--lad-ease-out) 0.08s both;
@@ -235,7 +235,7 @@ a {
 
 .hero-photo {
   object-fit: cover;
-  object-position: center 42%;
+  object-position: center 45%;
 }
 
 /* ——— Product strips ——— */
@@ -370,8 +370,8 @@ a {
 
   .hero-visual {
     /* Full visual plane on phone — not a thin strip */
-    min-height: clamp(280px, 48dvh, 520px);
-    flex: 1 1 48dvh;
+    min-height: clamp(340px, 55dvh, 620px);
+    flex: 1 1 55dvh;
   }
 
   .hero-cta {
@@ -390,7 +390,7 @@ a {
   }
 
   .hero-visual {
-    min-height: clamp(300px, 50dvh, 560px);
+    min-height: clamp(360px, 58dvh, 640px);
   }
 
   .hero-cta {
