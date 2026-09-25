@@ -9,6 +9,9 @@
 
 ## Ассеты
 
-- `assets/hero-frets.jpg` (+ `.webp`) — крупный план ладов для hero.
-  - **Источник:** сгенерированное фотореалистичное изображение (Cursor GenerateImage). Оригинальная композиция в духе премиального грифа (тёмный гриф / палисандр, полированные лады, bird-инлеи в духе PRS, студийный свет), без логотипов бренда и без копирования кадров с prsguitars.com.
-  - **Лицензия:** создано для проекта «Лад»; не сток Unsplash/Pexels и не маркетинг PRS.
+- `assets/hero-frets.jpg` (+ `.webp`) — крупный план ладов для hero (кадрирование под 16:9).
+  - **Источник:** [PRS SE Custom 24 Inlay.jpg](https://commons.wikimedia.org/wiki/File:PRS_SE_Custom_24_Inlay.jpg) на Wikimedia Commons  
+    (Flickr: [freebird_71/19204756516](https://www.flickr.com/photos/freebird_71/19204756516/))
+  - **Автор:** Freebird
+  - **Лицензия:** [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)
+  - **Почему:** реальный макро-кадр PRS SE Custom 24 — диагональ грифа, струны и лады, характерные bird-инлеи; без логотипа на голове грифа в кадре. Не маркетинг prsguitars.com.
