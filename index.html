@@ -3,103 +3,90 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#0b0a09" />
+  <meta name="theme-color" content="#f5f5f7" />
   <meta name="description" content="Лад — три режима: Быстрый, Песня и Рифф от захвата на грифе." />
   <title>Лад — выбери режим</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.bunny.net" crossorigin />
+  <link href="https://fonts.bunny.net/css?family=manrope:400,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="sky" aria-hidden="true"></div>
+  <header class="globalnav">
+    <a class="globalnav-mark" href="#top">Лад</a>
+    <nav class="globalnav-links" aria-label="Режимы">
+      <a href="#bystryy">Быстрый</a>
+      <a href="#pesnya">Песня</a>
+      <a href="#riff">Рифф</a>
+    </nav>
+  </header>
 
-  <main class="shell">
-    <header class="intro">
-      <p class="mark">Лад</p>
-      <p class="eyebrow">музыка в твоём ритме</p>
-      <h1 class="title">Три режима. Один инструмент.</h1>
-      <p class="lead">
-        Быстрый совет, сборка песни —
-        или рифф от захвата на грифе к ходу.
-      </p>
-    </header>
+  <main id="top">
+    <section class="hero" aria-label="Лад">
+      <div class="hero-copy">
+        <h1 class="brand">Лад</h1>
+        <p class="hero-sub">Три режима. Один инструмент.</p>
+        <p class="hero-lead">От захвата на грифе — к ходу, песне или быстрому совету.</p>
+        <div class="hero-cta" role="group" aria-label="Открыть режим">
+          <a class="cta-link" href="https://alyosha1988.github.io/lad-v1/">Быстрый <span aria-hidden="true">›</span></a>
+          <a class="cta-link" href="https://alyosha1988.github.io/lad-v2/">Песня <span aria-hidden="true">›</span></a>
+          <a class="cta-link" href="https://alyosha1988.github.io/lad-v3/">Рифф <span aria-hidden="true">›</span></a>
+        </div>
+      </div>
 
-    <section class="doors" aria-label="Выбор режима">
-      <article class="door door-v1">
-        <div class="door-media">
-          <img src="icons/v1_preview.jpg" alt="" />
-          <span class="door-badge">Быстрый</span>
-        </div>
-        <div class="door-body">
-          <h2 class="door-title">Быстрый</h2>
-          <p class="door-tag">Совет у грифа за минуту</p>
-          <ul class="door-points">
-            <li>Стартуешь с аккорда — или узнаёшь его по грифу / клавишам</li>
-            <li>Получаешь гармонические ходы и аппликатуры</li>
-            <li>Слушаешь акустику, дисторшн или рояль</li>
-            <li>Короткий путь — без карты и формы песни</li>
-          </ul>
-          <p class="door-diff">
-            <strong>Для кого:</strong> когда нужен ход прямо сейчас. Знаешь аккорд → сразу идеи.
-          </p>
-          <a class="door-cta door-cta-v1" href="https://alyosha1988.github.io/lad-v1/">
-            Открыть быстрый <span aria-hidden="true">→</span>
-          </a>
-        </div>
-      </article>
-
-      <article class="door door-v2">
-        <div class="door-media">
-          <img src="icons/v2_preview.jpg" alt="" />
-          <span class="door-badge">Песня</span>
-        </div>
-        <div class="door-body">
-          <h2 class="door-title">Песня</h2>
-          <p class="door-tag">От настроения до формы</p>
-          <ul class="door-points">
-            <li>Комната настроения: выбираешь оттенок</li>
-            <li>Карта лада: связи между аккордами</li>
-            <li>Дорожка: интро, куплет, припев, бридж</li>
-            <li>Выгрузка PDF с аппликатурами</li>
-          </ul>
-          <p class="door-diff">
-            <strong>Для кого:</strong> когда собираешь песню. Исследуешь карту, собираешь форму, уносишь лист.
-          </p>
-          <a class="door-cta door-cta-v2" href="https://alyosha1988.github.io/lad-v2/">
-            Собрать песню <span aria-hidden="true">→</span>
-          </a>
-        </div>
-      </article>
-
-      <article class="door door-v3">
-        <div class="door-media">
-          <img src="icons/v3_preview.jpg" alt="" />
-          <span class="door-badge">Рифф</span>
-        </div>
-        <div class="door-body">
-          <h2 class="door-title">Рифф</h2>
-          <p class="door-tag">От захвата к ходу</p>
-          <ul class="door-points">
-            <li>Зажимаешь на грифе или клавишах — узнаём аккорд</li>
-            <li>Все постановки из базы: open, баррэ, CAGED, рояль</li>
-            <li>Собираешь ход: порядок и дубли хватов</li>
-            <li>Идеи развития: продолжить, заменить, другие формы</li>
-          </ul>
-          <p class="door-diff">
-            <strong>Для кого:</strong> когда рука уже на грифе. От пальцев к гармонии и вариантам.
-          </p>
-          <a class="door-cta door-cta-v3" href="https://alyosha1988.github.io/lad-v3/">
-            Открыть рифф <span aria-hidden="true">→</span>
-          </a>
-        </div>
-      </article>
-
+      <div class="hero-visual">
+        <picture>
+          <source type="image/webp" srcset="assets/hero-frets.webp" />
+          <img
+            class="hero-photo"
+            src="assets/hero-frets.jpg"
+            alt="Крупный план ладов гитары"
+            width="2560"
+            height="1440"
+            decoding="async"
+            fetchpriority="high"
+          />
+        </picture>
+      </div>
     </section>
 
-    <footer class="foot">
-      <p>Три режима — «Лад». Можно возвращаться и переключаться.</p>
-    </footer>
+    <section class="strip strip-soft" id="bystryy">
+      <div class="strip-copy reveal">
+        <h2 class="strip-title">Быстрый</h2>
+        <p class="strip-tag">Совет у грифа за минуту</p>
+        <a class="cta-pill" href="https://alyosha1988.github.io/lad-v1/">Открыть быстрый</a>
+      </div>
+      <figure class="strip-visual reveal">
+        <img src="icons/v1_preview.jpg" alt="Интерфейс режима Быстрый" width="1200" height="780" loading="lazy" />
+      </figure>
+    </section>
+
+    <section class="strip" id="pesnya">
+      <div class="strip-copy reveal">
+        <h2 class="strip-title">Песня</h2>
+        <p class="strip-tag">От настроения до формы</p>
+        <a class="cta-pill" href="https://alyosha1988.github.io/lad-v2/">Собрать песню</a>
+      </div>
+      <figure class="strip-visual reveal">
+        <img src="icons/v2_preview.jpg" alt="Интерфейс режима Песня" width="1200" height="780" loading="lazy" />
+      </figure>
+    </section>
+
+    <section class="strip strip-soft" id="riff">
+      <div class="strip-copy reveal">
+        <h2 class="strip-title">Рифф</h2>
+        <p class="strip-tag">От захвата к ходу</p>
+        <a class="cta-pill" href="https://alyosha1988.github.io/lad-v3/">Открыть рифф</a>
+      </div>
+      <figure class="strip-visual reveal">
+        <img src="icons/v3_preview.jpg" alt="Интерфейс режима Рифф" width="1200" height="780" loading="lazy" />
+      </figure>
+    </section>
   </main>
+
+  <footer class="foot">
+    <p>Три режима — «Лад». Можно возвращаться и переключаться.</p>
+  </footer>
+
+  <script src="hub.js" defer></script>
 </body>
 </html>
