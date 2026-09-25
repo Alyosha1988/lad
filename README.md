@@ -1,7 +1,8 @@
-# Лад — выбор версии
+# Лад — хаб режимов
 
-Входная страница: выбери **v1** (хордовый спутник) или **v2** (Song Companion).
+Входная страница: выбери режим.
 
-- v1: https://alyosha1988.github.io/lad-v1/
-- v2: https://alyosha1988.github.io/lad-v2/
-- Hub: https://alyosha1988.github.io/lad/
+- Быстрый: https://alyosha1988.github.io/lad-v1/
+- Песня: https://alyosha1988.github.io/lad-v2/
+- Рифф: https://alyosha1988.github.io/lad-v3/
+- Хаб: https://alyosha1988.github.io/lad/
